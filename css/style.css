@@ -52,3 +52,4 @@ ul.nav_menu li a {
   float: left;
 }
 .image_panel > li img{cursor:pointer;}
+.image_panel2, .image_panel3, .image_panel4{display:none;}
