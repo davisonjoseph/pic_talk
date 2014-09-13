@@ -43,3 +43,12 @@ ul.nav_menu li a {
   text-align: center;
   width: 100%;
 }
+.image_panel {
+  float: left;
+  list-style: none outside none;
+  width: 100%;
+}
+.image_panel > li {
+  float: left;
+}
+.image_panel > li img{cursor:pointer;}
