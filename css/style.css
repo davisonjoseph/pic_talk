@@ -1,3 +1,45 @@
 @charset "utf-8";
 /* CSS Document */
 
+html, body, ul {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+div.header {
+  float: left;
+  width: 100%;
+}
+.textfield {
+  float: left;
+  height: 29px;
+  margin: 0;
+  padding: 0;
+  width: 85%;
+}
+span.speak {
+  background: none repeat scroll 0 0 #ccc;
+  float: left;
+  height: 30px;
+  width: 20px;
+  margin: 0;
+    padding: 0;
+}
+ul.nav_menu {
+list-style:none;
+}
+ul.nav_menu li {
+  float: left;
+  height: auto;
+  width: 25%;
+}
+ul.nav_menu li a {
+  border: 1px solid #ccc;
+  float: left;
+  height: auto;
+  padding: 6px 0;
+  text-align: center;
+  width: 100%;
+}
